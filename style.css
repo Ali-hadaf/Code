@@ -1,13 +1,17 @@
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
   }
   .navig{
     margin: 0;
     padding: 0;
 }
 .navig ul{
-    background-color: orange;
+    background-color: #1e3a8a;
     display: flex;
     justify-content: flex-end;
-    margin: 10px;
     padding: 10px;
     list-style: none;
     font-size: 20px;
@@ -16,18 +20,21 @@
 .navig li{
   display: flex;
   margin: 20px;
+  color: white;
 }
 .navig a{
     text-decoration: none;
 }
-
-.navig a:hover{
-  background: #333;
+.navig nav ul li:hover{
+  background: coral;
+  color: black;
+  border-radius: 10px;
 }
   header{
     background: lightblue;
     text-align: center;
     padding: 30px;
+    margin-top: 10px;
   }
   button{
     background: blue;
@@ -48,6 +55,18 @@
     gap: 20px;
     
   }
+  .box{
+    background-color: #f4f4f4;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px grey;
+  }
+  .box:hover{
+    background: #E0FF4F;
+    color: #00272B;
+  }
   footer{
         background: black;
         color: white;
@@ -56,4 +75,15 @@
         font-size: 20px;
         font-style: italic;
         margin-top: 20px;
+  }
+  h4{
+    background:#C2D8C4;
+    color: #222222;
+    padding: 15px;
+  }
+  .repo{
+    background: #FAEFD9;
+    color: #333;
+    margin-top: 10px;
+    padding-left: 50px;
   }
