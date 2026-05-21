@@ -3,29 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Login</title>
+  <title>New Design</title>
 
-  <!-- Boxicons CDN (for icons) -->
+  <link rel="stylesheet" href="style.css">
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <div class="navig">
 <nav>
   <ul>
-    <li>Home</li>
-    <li>About</li>
-    <li>Nwes</li>
-    <li>Contact</li>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#repo">Repo</a></li>
+    <li><a href="#contact">Contact</a></li>
   </ul>
 </nav>
   </div>
-  <header>
+  <header id="home">
     <h1>Welcome New Design</h1>
     <h2>Tatourail HTML and CSS</h2>
     <p>Web development is the process of creating, building, and maintaining websites or web applications that run on the internet.</p>
-    <button>Starting Click</button>
+    <button>Get Started</button>
   </header>
   <main>
     <div class="container">
@@ -39,20 +38,32 @@
       </div>
       <div class="box">
       <h3>GitHub</h3>
-      <p>GitHub is a web-based platform used by developers to store, manage</p>
+      <p>GitHub is a web-based platform used by developers to store and manage codes.</p>
       </div>
     </div>
   </main>
-  <h4>A repo Stores</h4>
-  <ol class="repo">
+  <section class="about" id="about">
+    <h2>About Me</h2>
+    <p>I am Ali, learning web development using HTML and CSS.</p>
+</section>
+  <section class="repo" id="repo">
+  <h2> Repository Stores</h2>
+  <ol>
     <li>HTML</li>
     <li>CSS</li>
     <li>Python</li>
     <li>Images</li>
     <li>Documents</li>
   </ol>
+  </section>
+  <section class="contact" id="contact">
+    <h2>Contact</h2>
+    <p>Email: aliabdi@Gmail.com</p>
+    <p>GitHub: github.com/Ali-hadaf</p>
+</section>
   <footer>
     <p>Copyright &copy by Ali Abdi Mohamud</p>
   </footer>
 </body>
 </html>
+
